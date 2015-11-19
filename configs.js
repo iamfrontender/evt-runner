@@ -11,6 +11,11 @@ var executables = {
 };
 
 module.exports = {
+  engines: {
+    'p': 'prod',
+    't': 'test',
+    'd': 'dev'
+  },
   paths: paths,
   test: {
     executable: 'karma',

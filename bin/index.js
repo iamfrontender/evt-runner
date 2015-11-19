@@ -16,11 +16,11 @@ program
   });
 
 program
-  .command('serve')
+  .command('serve <engine>')
   .alias('s')
   .description('Launches default serve task')
-  .action(function() {
-    launcher.serve();
+  .action(function(engine) {
+    launcher.serve(engine);
   });
 
 program
