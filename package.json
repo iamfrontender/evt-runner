@@ -1,6 +1,6 @@
 {
   "name": "evt-runner",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Runner for EVT Dashboard FE",
   "main": "index.js",
   "bin": {
